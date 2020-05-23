@@ -31,8 +31,8 @@ int rec_buf[100];          // buffer where the received data should be stored
  startMPI(argc, argv);
 
 /************************* matrix size **********************/
-// readMatrixSize(inn_file,size);
- //printf("size %d\n",size[0]);
+ readMatrixSize(inn_file,size);
+ printf("size %d\n",size[0]);
  
 // int SIZE = size[0];
  //printf("size %d\n",SIZE);
